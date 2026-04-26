@@ -1,0 +1,98 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* TÍTULO */
+.titol {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* IMÁGENES */
+img {
+    width: 250px;
+}
+
+/* INFO DEBAJO (nombre + precio) */
+.info-manga {
+    margin-top: 10px;
+    text-align: left;
+    flex: 1;
+}
+
+/* NOMBRE */
+.nombre {
+    font-weight: bold;
+}
+
+/* PRECIO EN ROJO */
+.precio {
+    color: red;
+    margin-left: 10px;
+}
+
+/* CAJAS (para que se vean las columnas) */
+.caixa {
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;   
+}
+
+/* COLORES DE CADA MANGA */
+.vermell {
+    border-color: red;
+}
+
+.verd {
+    border-color: green;
+}
+
+.blau {
+    border-color: blue;
+}
+
+.lila {
+    border-color: purple;
+}
+
+.taronja {
+    border-color: orange;
+}
+
+.marino {
+    border-color: navy;
+}
+
+/* EFECTO HOVER (queda más pro) */
+.caixa:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.compra {
+margin-top: 15px;
+padding: 10px 20px;
+background-color: black;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+
+}
+
+/* FORMULARIO DE COMPRA */
+.form-container {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 
+
+}
